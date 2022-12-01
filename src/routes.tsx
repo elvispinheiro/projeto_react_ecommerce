@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import { Carrinho } from './pages/Carrinho';
 import { Home } from './pages/Home';
+import { Categoria } from './pages/Categoria';
 
 export const Rotas = () => {
     return (
@@ -15,6 +16,10 @@ export const Rotas = () => {
                 <Route
                     path='/carrinho'
                     element={<Carrinho />}
+                />
+                <Route
+                    path='/categoria/:id'
+                    element={<Categoria />}
                 />
             </Routes>
         </BrowserRouter>
