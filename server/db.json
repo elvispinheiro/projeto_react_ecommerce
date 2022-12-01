@@ -1,0 +1,108 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "categoria": "Telefonia"
+        },
+        {
+            "id": 2,
+            "categoria": "Eletrodomésticos"
+        },
+        {
+            "id": 3,
+            "categoria": "Moveis"
+        }
+    ],
+    "produtos": [
+        {
+            "id": "1",
+            "id_categoria": 1,
+            "nome": "Smartphone Samsung Galaxy S20 FE 5G 128GB Azul - Marinho 6GB RAM 6,5” Câm. Tripla   Selfie 32MP",
+            "valor": "3.999,00",
+            "promo": "1.799,10",
+            "imagemg": "ssgs20g.jpg",
+            "imagemp": "ssgs20p.jpg"
+        },
+        {
+            "id": "2",
+            "id_categoria": 1,
+            "nome": "iPhone 11 Apple 64GB Branco 6,1” 12MP iOS",
+            "valor": "4.769,90",
+            "promo": "3.299,00",
+            "imagemg": "ip11g.jpg",
+            "imagemp": "ip11p.jpg"
+        },
+        {
+            "id": "3",
+            "id_categoria": 1,
+            "nome": "Smartphone Motorola Moto G32 128GB Preto 4G - Octa-Core 4GB RAM 6,5” Câm. Tripla   Selfie 16MP",
+            "valor": "1.599,90",
+            "promo": "1.195,00",
+            "imagemg": "smotog32g.jpg",
+            "imagemp": "smotog32p.jpg"
+        },
+        {
+            "id": "4",
+            "id_categoria": 2,
+            "nome": "Forno Elétrico de Bancada Britânia com Dourador - 40L Preto BFE45PI",
+            "valor": "599,90",
+            "promo": "469,99",
+            "imagemg": "fornoeletricog.jpg",
+            "imagemp": "fornoeletricop.jpg"
+        },
+        {
+            "id": "5",
+            "id_categoria": 2,
+            "nome": "Fogão 5 Bocas Mesa de Vidro Atlas Preto - Acendimento Automático Mônaco Top Glass",
+            "valor": "1.499,00",
+            "promo": "1.176,99",
+            "imagemg": "fogao5bg.jpg",
+            "imagemp": "fogao5bp.jpg"
+        },
+        {
+            "id": "6",
+            "id_categoria": 2,
+            "nome": "Geladeira Brastemp Frost Free Duplex 375L Branca - com Compartimento Extrafrio Fresh Zone",
+            "valor": "3.710,00",
+            "promo": "2.849,05",
+            "imagemg": "geladeirag.jpg",
+            "imagemp": "geladeirap.jpg"
+        },
+        {
+            "id": "7",
+            "id_categoria": 3,
+            "nome": "Conjunto Sala de Jantar Madesa Aline Mesa Tampo de Vidro com 4 Cadeiras",
+            "valor": "879,00",
+            "promo": "530,99",
+            "imagemg": "mesatampovidrog.jpg",
+            "imagemp": "mesatampovidrop.jpg"
+        },
+        {
+            "id": "8",
+            "id_categoria": 3,
+            "nome": "Cozinha Compacta Madesa Emilly Pop Com Armário e Balcão",
+            "valor": "919,99",
+            "promo": "594,99",
+            "imagemg": "cozinhag.jpg",
+            "imagemp": "cozinhap.jpg"
+        },
+        {
+            "id": "9",
+            "id_categoria": 3,
+            "nome": "Guarda Roupa Casal Espelho 6 Portas 2 Gavetas Real Atualle",
+            "valor": "599,90",
+            "promo": "434,00",
+            "imagemg": "guardaroupag.jpg",
+            "imagemp": "guardaroupap.jpg"
+        },
+        {
+            "id": "10",
+            "id_categoria": 3,
+            "nome": "Sofá Retrátil e Reclinável Cama inBox Compact 1,50m Tecido Suede Velusoft Cinza",
+            "valor": "1.929,90",
+            "promo": "799,90",
+            "imagemg": "sofag.jpg",
+            "imagemp": "sofap.jpg"
+        }
+    ]
+}
