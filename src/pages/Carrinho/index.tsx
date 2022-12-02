@@ -46,7 +46,7 @@ export const Carrinho = () => {
                 <table className='table table-striped'>
                     <thead>
                         <tr>
-                            <td>Nome do produto</td>
+                            <td width={300}>Nome do produto</td>
                             <td>Qtd.</td>
                             <td>Vlr. Unit.</td>
                             <td>Vlr. Total</td>
@@ -57,7 +57,7 @@ export const Carrinho = () => {
                         {
                             dataCarrinho.map((produto) => (
                                 <tr key={produto.id}>
-                                    <td>{produto.nome}</td>
+                                    <td width={300} >{produto.nome}</td>
                                     <td>{produto.quantidade}</td>
                                     <td>{produto.promo}</td>
                                     <td>{produto.total}</td>
