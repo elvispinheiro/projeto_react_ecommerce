@@ -59,7 +59,7 @@ export const Menu = () => {
                                         <Link
                                             key={menu.id}
                                             className='nav-link'
-                                            to='/'
+                                            to={'/categoria/'+menu.id}
                                         >
                                             {menu.categoria}
                                         </Link>

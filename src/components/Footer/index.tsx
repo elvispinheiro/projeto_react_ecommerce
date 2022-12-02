@@ -21,7 +21,7 @@ export const Footer = () => {
                         margin: 0
                     }}
                 >
-                    Desenvilvido por seu nome
+                    Desenvilvido por: Elvis
                 </p>
                 <div
                     style={{

@@ -7,6 +7,7 @@ import {
 import { Carrinho } from './pages/Carrinho';
 import { Home } from './pages/Home';
 import { Categoria } from './pages/Categoria';
+import { Produto } from './pages/produto';
 
 export const Rotas = () => {
     return (
@@ -20,6 +21,10 @@ export const Rotas = () => {
                 <Route
                     path='/categoria/:id'
                     element={<Categoria />}
+                />
+                <Route
+                    path='/produto/:id'
+                    element={<Produto />}
                 />
             </Routes>
         </BrowserRouter>
