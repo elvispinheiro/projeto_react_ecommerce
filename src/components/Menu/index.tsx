@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaShoppingCart } from 'react-icons/fa';
+import { FaShoppingCart, FaList } from 'react-icons/fa';
 import {
     Navbar,
     Nav,
@@ -74,6 +74,14 @@ export const Menu = () => {
                                 className='nav-link'
                             >
                                 <FaShoppingCart
+                                    size={22}
+                                />
+                            </Link>
+                            <Link
+                                to='/listagemCategoria'
+                                className='nav-link'
+                            >
+                                <FaList
                                     size={22}
                                 />
                             </Link>
